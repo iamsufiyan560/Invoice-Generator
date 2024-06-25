@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.invoice {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+.invoice h2 {
+  margin-bottom: 10px;
+}
+
+.company-logo img {
+  max-width: 100px;
+}
+
+.seller-details p,
+.details p,
+.totals p,
+.signature p {
+  margin: 5px 0;
+}
+
+.items-table th,
+.items-table td {
+  text-align: left;
+}
+
+.items-table th {
+  background-color: #f8f8f8;
+}
+
+.items-table th,
+.items-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.totals p {
+  font-weight: bold;
+}
+
+.signature img {
+  max-width: 100px;
+}
